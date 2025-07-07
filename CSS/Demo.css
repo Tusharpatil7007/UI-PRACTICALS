@@ -1,0 +1,91 @@
+*
+{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    min-height: 200px;
+    /* border: 1px solid #000; */
+    margin: auto;
+}
+.container .logo{
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    height: 100px;
+    width: 100%;
+    background-image: url("../PLP/navigation");
+}
+.container .logo h1{
+    font-family: 'Segoe UI', sans-serif;
+    text-shadow: 2px 2px 4px #f8bbd0;
+}
+.container .nav{
+    height: 60px;
+    width: 100%;
+    /* background-color: royalblue; */
+    margin-top: 5px;
+    background-image: url("../PLP/navigation");
+}
+.container .nav ul{
+    list-style-type: none;
+    display: inline-block
+}
+.nav ul li{
+    padding: 20px;
+    min-height: 60px;
+}
+.nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500;
+}
+.nav ul li a:hover{
+   background-color: lightgray;
+   color:red;
+   border-radius: 10px;
+}
+.slider{
+    margin-top: 5px;
+    background-image: url("../PLP/navigation");
+    height: 100%;
+}
+.slider img{
+    width: 100%;
+}
+.main-box{
+    height: 400px;
+    padding: 10px;
+}
+.main-box .ram{
+    float: left;
+    width: 42%;
+    background-color: black;
+    height: 100%;
+    color: white;
+}
+.main-box .ram img{
+    width: 100%;
+    height: 100%;
+}
+.main-box .shyam{
+    float: right;
+    width: 57%;
+    background-color: black;
+    height: 100%;
+    color: white;
+}
+.main-box .shyam img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-image: url("../PLP/navigation");
+}
+
+/* ............ */
