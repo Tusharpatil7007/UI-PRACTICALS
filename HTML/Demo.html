@@ -1,35 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../CSS/Demo.css">
-</head>
-<body>                                          
+    <link rel="stylesheet" href="../CSS/Demo.css" />
+    <link rel="stylesheet" href="../CSS/ism/css/my-slider.css" />
+    <script src="../CSS/ism/js/ism-2.2.min.js"></script>
+  </head>
+  <body>
     <div class="container">
-        
-        <div class="logo"><h1>BloomAura</h1></div>
-        <div class="nav">
-            <ul><li><a href="">Home</a></li></ul>
-            <ul><li><a href="">About</a></li></ul>
-            <ul><li><a href="">Product</a></li></ul>
-            <ul><li><a href="">Contact</a></li></ul>
+      <div class="logo"><h1>BloomAura</h1></div>
+      <div class="nav">
+        <ul>
+          <li><a href="">Home</a></li>
+        </ul>
+        <ul>
+          <li><a href="">About</a></li>
+        </ul>
+        <ul>
+          <li><a href="">Product</a></li>
+        </ul>
+        <ul>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <div class="my-slider">
+        <!-- <img src="../PLP/nature-image.jpg" alt="image"> -->
+        <div
+          class="ism-slider"
+          data-transition_type="fade"
+          data-play_type="once-rewind"
+          data-interval="3000"
+          data-image_fx="zoompan"
+          id="my-slider"
+        >
+          <ol>
+            <li>
+              <img src="../CSS/ism/image/slides/flower-729514_1280.jpg" />
+              <!-- <div class="../CSS/ism-caption ism-caption-0">My slide caption text</div> -->
+            </li>
+            <li>
+              <img src="../CSS/ism/image/slides/beautiful-701678_1280.jpg" />
+              <!-- <div class="ism-caption ism-caption-0">My slide caption text</div> -->
+            </li>
+            <li>
+              <img src="../CSS/ism/image/slides/summer-192179_1280.jpg" />
+              <!-- <div class="ism-caption ism-caption-0">My slide caption text</div> -->
+            </li>
+          </ol>
         </div>
-        <div class="slider">
-            <img src="../PLP/nature-image.jpg" alt="image">
+      </div>
+      <div class="main-box">
+        <div class="ram">
+          <img src="../PLP/Box-1.jpg" alt="box-1 image" />
         </div>
-        <div class="main-box">
-            <div class="ram">
-                <img src="../PLP/Box-1.jpg" alt="box-1 image">
-            </div>
-            <div class="shyam">
-                <img src="../PLP/Box-2.jpg" alt="box-2 image">
-            </div>
+        <div class="shyam">
+          <img src="../PLP/Box-2.jpg" alt="box-2 image" />
         </div>
-        <div class="footer">
-            
-        </div>
+      </div>
+      <div class="footer"></div>
     </div>
-</body>
+  </body>
 </html>

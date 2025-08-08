@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    min-height: 400px;
+    border: 1px solid #000;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    
+}
+.item{
+    padding: 10px 20px;
+    color: white;
+}
+.header{
+    background-color: rgb(57, 66, 67);
+    
+}
+.menu{
+    background-color: rgb(57, 66, 67);
+    
+}
